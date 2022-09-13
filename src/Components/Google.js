@@ -2,11 +2,11 @@ export default function Google() {
   return (
     <div class="Google">
       <span>G</span>
-      <span>O</span>
-      <span>O</span>
-      <span>G</span>
-      <span>L</span>
-      <span>E</span>
+      <span>o</span>
+      <span>o</span>
+      <span>g</span>
+      <span>l</span>
+      <span>e</span>
     </div>
   );
 }

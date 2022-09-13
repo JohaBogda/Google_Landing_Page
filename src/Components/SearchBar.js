@@ -1,8 +1,13 @@
 export default function SearchBar() {
   return (
     <div>
-      <input class="SearchBar" type="text"></input>
-      <button>Google Search</button> <button>I'm Feeling Lucky</button>
+      <form>
+        <input class="SearchBar" type="text"></input>
+        <div>
+          <button class="SearchBarButtons">Google Search</button>
+          <button class="SearchBarButtons">I'm Feeling Lucky</button>
+        </div>
+      </form>
     </div>
   );
 }
