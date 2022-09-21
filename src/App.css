@@ -1,6 +1,10 @@
 body{
   margin: 0;
+  font-size: 14px;
+    font-family: arial, sans-serif;
 }
+
+/* HEADER */
 .Header{
 display: flex;
 flex-direction: row;
@@ -13,14 +17,21 @@ margin: 20px;
   font-size: 15px;
 }
 
+.topRight{
+  font: 13px/27px arial, sans-serif;
+  padding: 0px 40px;
+}
+
+
+/* GOOGLE */
 .Google{
   display: flex;
 justify-content: center;
 margin: 50px 100px;
-font-size: 70px;
+
 }
 
-
+/* SEARCHBAR */
 
 input{
 border-radius: 50px;
@@ -33,6 +44,10 @@ background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/
 
 }
 
+
+
+
+
 .SearchBarButtons {
   border: none;
   background-color: #F8F9FA;
@@ -40,19 +55,20 @@ background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/
   margin: 3px;
 }
 
+/* FOOTER */
 
 ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 0px;
 }
 
-li{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.FooterLinks {
+display: flex;
+flex-direction: row;
 }
 
 a{
@@ -67,6 +83,7 @@ a:hover{
 .Footer{
   position: absolute;
   bottom: 0;
-  background-color: #F8F9FA;
+  background-color: #F2F2F2;
   width: 100%;
+color: gray;
 }

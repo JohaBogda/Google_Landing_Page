@@ -9,7 +9,9 @@ export default function Header() {
         <a class="Gmail">Gmail</a>
         <a class="Images">Images</a>
         <button class="MenuButton">Menu Button</button>
-        <button class="Intial">J</button>
+        <button class="Intial">
+          <img src="https://lh3.googleusercontent.com/ogw/AOh-ky2Oqq7xMO8nAMjUHYLg-2zCfllGaNRyqI45PJeO=s32-c-mo" />
+        </button>
       </div>
     </div>
   );

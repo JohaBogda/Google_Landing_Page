@@ -1,10 +1,8 @@
 export default function Footer() {
   return (
     <div class="Footer">
-      <a>Carbon neutral since 2007</a>
-
       <ul>
-        <div>
+        <div class="FooterLinks">
           <li>
             <a>Advertising</a>
           </li>
@@ -15,7 +13,8 @@ export default function Footer() {
             <a>How Search works</a>
           </li>
         </div>
-        <div>
+        <a>Carbon neutral since 2007</a>
+        <div class="FooterLinks">
           <li>
             <a>Privacy</a>
           </li>
