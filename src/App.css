@@ -63,7 +63,12 @@ ul {
   flex-wrap: wrap;
   list-style-type: none;
   justify-content: space-between;
-  padding: 0px;
+  padding: 0px 20px;
+  margin: 0px;
+}
+
+li{
+  padding: 15px;
 }
 
 .FooterLinks {
@@ -73,7 +78,7 @@ flex-direction: row;
 
 a{
   text-decoration: none;
-  padding: 3px;
+  padding: 15px;
 }
 
 a:hover{
@@ -86,4 +91,9 @@ a:hover{
   background-color: #F2F2F2;
   width: 100%;
 color: gray;
+}
+
+.Leaf {
+  height: 14px;
+  padding: 0 3px;
 }
